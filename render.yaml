@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tektop-africa
+    runtime: static
+    buildCommand: bash scripts/build.sh
+    staticPublishPath: ./dist

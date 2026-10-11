@@ -19,3 +19,9 @@
 ## 4. Direction graphique et expérience responsive
 - [x] Reprendre la direction graphique de la maquette : palette vert profond, olive, or, crème et encre, typographies Montserrat et Manrope, logo fourni.
 - [x] Le site offre une expérience responsive et interactive avec cartes animées, curseur de texte animé, indicateur de progression au défilement et animations compatibles avec prefers-reduced-motion.
+
+## 5. Export complet et déployable sur Render
+- [x] Ajouter à la racine un `render.yaml` de type Static Site Render avec une commande de build et un répertoire de publication valides.
+- [x] Fournir un script de build qui génère `dist/` avec `index.html` et `manus-routes.json`, sans dépendances Node ou serveur.
+- [x] Documenter dans `README.md` les fichiers du projet, le déploiement Blueprint Render, l’alternative Static Site manuelle et l’import du ZIP via un dépôt Git.
+- [x] Fournir une archive ZIP complète du projet, y compris les fichiers cachés utiles, mais sans `.git` ni dépendances générées inutiles.
